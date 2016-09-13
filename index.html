@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IT Шура</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href='//fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="dist/css/landing.css">
+    </head>
+    <body>
+
+        <div class="content">
+            <div class="head-text">
+                <h1>IT SHURA</h1>
+                <h3 class="subheading muted">«…Которые отвечают своему Господу, совершают намаз, <strong>совещаются между собой о делах</strong> и расходуют из того, чем Мы их наделили…»<br><span class='quran-title'>Священный Коран, <a href='http://quran-online.ru/42:38' target='_blank'>42:38</a></span></h3>
+            </div>
+
+            <hr>
+
+            <p>Добро пожаловать в исламское сообщество «IT-Shura», участники которого стремятся объединить мусульман на одной площадке для полезного взаимодействия друг с другом. </p>
+
+            <p>Мы будем очень рады увидеть в своих рядах программистов, дизайнеров, менеджеров, руководителей проектов, учёных и просто любого интересующегося современными технологиями мусульманина(-ку). Наша основная задача - предоставить вам возможность развиваться и работать над совместными проектами в любой сфере, не нарушающей права Аллаха и права созданий.</p>
+
+            <p>Мы используем некоторые интернет-площадки для коммуникации, к которым мы можете присоединиться прямо сейчас.</p>
+
+            <h2>Slack</h2>
+
+            <p>Это <a href='https://slack.com/' target='_blank'>программа для общения</a>. В ней есть чат-комнаты, каждый чат имеет свою тематику. <strong>Не забудьте установить Slack на свой компьютер и мобильный телефон, чтобы всегда находиться в сообществе!</strong></p>
+
+            <img src="/dist/images/slack.png" class="clickable" onclick="transformImg(this, 2)" />
+
+            <div class="Aligner">
+                <a class="button big upper primary Aligner-item" target="_blank" href="http://it-shura-slack.herokuapp.com/">Подключиться к нашему Slack сообществу!</a>
+            </div>
+
+            <!--<h2>Форум</h2>-->
+            <!--<p>Вскоре, ин шаа Аллах, мы откроем форум, на котором мусульмане также смогут вести обсуждения любого вида.</p>-->
+
+            <hr>
+
+            <h2>Кто организовал всё это дело?</h2>
+
+            <p>Организаторами является группа мусульман-айтишников, которых беспокоит проблема отсутствия активного исламского it-сообщества. Один из организаторов - Ахмадуллин Роман, автор сайта <a href='http://quran-online.ru'>quran-online.ru</a> и, в данный момент, ведущий разработчик <a href='https://ru.holyquranacademy.org'>Академии Священного Корана</a>.</p>
+
+            <p>Если у вас есть вопросы по сообществу, вы всегда можете написать Ахмадуллину Роману в <a href='https://telegram.me/believerufa' target='_blank'>его Telegram</a>.</p>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script>
+            function transformImg(el, counter) {
+                if (el.style.transform) {
+                    el.style.transform = ''
+                } else {
+                    el.style.transform = 'scale('+counter+')'
+                }
+            }
+        </script>
+    </body>
+</html>

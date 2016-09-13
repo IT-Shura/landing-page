@@ -1,0 +1,97 @@
+// $font-family: 'Helvetica Neue', Helvetica, sans-serif !default;
+$font-family: "Noto Serif","Times New Roman",Helvetica,Arial,sans-serif;
+$heading-font-family: $font-family !default;
+$monospace-font-family: Consolas, Monaco, "Courier New", monospace !default;
+
+
+@import "kube";
+@import "scss/_aligner";
+
+html {
+    background: url(/dist/images/background.jpg) top center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+body {
+    background: rgba(0,0,0,.7);
+}
+
+.content {
+    max-width: 700px;
+    margin: 0 auto;
+    color: white;
+
+    /*background: rgba(0,0,0,.7);*/
+    padding: 100px 20px;
+    border-radius: 3px;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.button {
+    margin: 20px 0;
+}
+
+a {
+    color: #99D6E1;
+    &:hover {
+        color: darken(#99D6E1, 20%);
+    }
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+img {
+    transition: 0.5s;
+    transition-timing-function: ease;
+    border-radius: 5px;
+
+    &.opened {
+        transform: scale(2);
+    }
+}
+
+h1, h2, h3 {
+    color: white !important;
+    text-shadow: 1px 1px 1px black !important;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.head-text {
+
+    h1 {
+        margin: 20px 0 30px;
+        text-align: center;
+        font-weight: normal;
+        font-size: 60px;
+        text-transform: uppercase;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 14px;
+        font-style: italic;
+        line-height: 1.6;
+
+        .quran-title {
+            font-size: 95%;
+        }
+    }
+}
+
+hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    margin: 20px 0;
+}
