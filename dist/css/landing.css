@@ -2177,7 +2177,8 @@ button:hover .menu-icon {
 html {
   background: url(/dist/images/background.jpg) top center;
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  min-height: 100vh; }
 
 body {
   background: rgba(0, 0, 0, 0.7);
