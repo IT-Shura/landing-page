@@ -11,11 +11,11 @@ html {
     background: url(/dist/images/background.jpg) top center;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 100%;
 }
 
 body {
     background: rgba(0,0,0,.7);
+    min-height: 100vh;
 }
 
 .content {
@@ -56,6 +56,39 @@ img {
 
     &.opened {
         transform: scale(2);
+    }
+}
+
+.platform-block {
+    display: flex;
+    flex-direction: column;
+
+    .platform-block--text {
+        flex: 1 0 auto;
+        display: flex;
+        align-items: center;
+        padding: 0 30px;
+
+        p {
+            text-align: center;
+            width: 100%;
+        }
+    }
+}
+
+.platform-img {
+    width: 100%;
+    max-width: 422px;
+    height: 200px;
+    margin: auto;
+    flex: 0 0 auto;
+
+    &.platform-img-tg {
+        background: url(/dist/images/tg.png) no-repeat center / cover;
+    }
+
+    &.platform-img-forum {
+        background: url(/dist/images/tg.png) no-repeat center / cover;
     }
 }
 
