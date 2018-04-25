@@ -2232,7 +2232,8 @@ img {
   max-width: 422px;
   height: 200px;
   margin: auto;
-  flex: 0 0 auto; }
+  flex: 0 0 auto;
+  border-radius: 10px; }
   .platform-img.platform-img-tg {
     background: url(/dist/images/tg.png) no-repeat center/cover; }
   .platform-img.platform-img-forum {
