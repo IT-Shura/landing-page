@@ -46,7 +46,7 @@ error_reporting(IS_PROD ? 0 : E_ALL);
 
 Ссылки на наши смежные ресурсы:
 
-- https://goo.gl/qvZzM7 - таблица ИТ специалистов
+- https://forum.it-muslim.ru - наш форум
 - https://discord.gg/pHKEvMd - чат в дискорде для различных специализаций
 - https://t.me/it_muslim - телеграм чат IT Muslim
 - https://www.linkedin.com/groups/12112880 - группа в LinkedIn
