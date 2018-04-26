@@ -1,0 +1,14 @@
+{
+  "name": "it-shura/landing",
+  "type": "project",
+  "require": {
+      "erusev/parsedown": "^1.7",
+      "symfony/yaml": "^4.0"
+  },
+  "authors": [
+      {
+          "name": "roman",
+          "email": "freeman.aka.ahmed@gmail.com"
+      }
+  ]
+}
