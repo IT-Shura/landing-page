@@ -22,12 +22,16 @@ class Texts {
     return self::$inst;
   }
 
+  private function processStr($str) {
+    return str_replace('<a ', '<a target="_blank" rel="noopener noreferrer" ', $str);
+  }
+
   function text($str) {
-    return $this->parsedown->text($str);
+    return $this->processStr($this->parsedown->text($str));
   }
 
   function line($str) {
-    return $this->parsedown->line($str);
+    return $this->processStr($this->parsedown->line($str));
   }
 
 }

@@ -39,17 +39,22 @@ error_reporting(IS_PROD ? 0 : E_ALL);
 
 Мы используем некоторые интернет-площадки для коммуникации, к которым вы можете присоединиться прямо сейчас.
 
-Просим всех желающих заполнить одну из 2-х анкет:
+### Просим всех желающих заполнить одну из 2-х анкет:
 
  - [Я ИТ специалист](https://goo.gl/forms/eRm9TXklILY7xeYk1) - чтобы добавить себя в нашу [таблицу](https://goo.gl/qvZzM7) мусульман-специалистов.
  - [Хочу стать разработчиком](https://goo.gl/forms/WWqov48q14G5LL6q1) - чтобы получить возможность учиться у наших преподавателей.
 
-Ссылки на наши смежные ресурсы:
+### Наши ресурсы:
 
-- https://forum.it-muslim.ru - наш форум
-- https://discord.gg/pHKEvMd - чат в дискорде для различных специализаций
-- https://t.me/it_muslim - телеграм чат IT Muslim
-- https://www.linkedin.com/groups/12112880 - группа в LinkedIn
+- [Наш основной чат в дискорде](https://discord.gg/AKhueUP)
+- [Наш форум](https://forum.it-muslim.ru)
+- [Группа в LinkedIn](https://www.linkedin.com/groups/12112880)
+
+### Дружественные сообщества:
+
+- [Чат «null21» в дискорде для мусульман-айтишников](https://discord.gg/pHKEvMd)
+- [Телеграм чат IT Muslim](https://t.me/it_muslim)
+
 
 EOF
 )?>
